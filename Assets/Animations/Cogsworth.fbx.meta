@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: a559463a9c32c35429072c2e5c9c80e0
+timeCreated: 1485117300
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackLeg1
+    100002: backLegBase
+    100004: backLegEnd
+    100006: //RootNode
+    100008: cogsworth
+    100010: cogsworthMesh
+    100012: eyebrowBaseJoint
+    100014: headJoint
+    100016: leftEyebrowBase
+    100018: leftEyebrowEnd
+    100020: leftLeg
+    100022: leftLegBase
+    100024: leftLegEnd
+    100026: leftMoustacheBase
+    100028: leftMoustacheEnd
+    100030: rightEyebrowBase
+    100032: rightEyebrowEnd
+    100034: rightLegBase
+    100036: rightLegEnd
+    100038: rightLegJoint
+    100040: rightMoustacheBase
+    100042: rightMoustacheEnd
+    100044: rootJoint
+    400000: BackLeg1
+    400002: backLegBase
+    400004: backLegEnd
+    400006: //RootNode
+    400008: cogsworth
+    400010: cogsworthMesh
+    400012: eyebrowBaseJoint
+    400014: headJoint
+    400016: leftEyebrowBase
+    400018: leftEyebrowEnd
+    400020: leftLeg
+    400022: leftLegBase
+    400024: leftLegEnd
+    400026: leftMoustacheBase
+    400028: leftMoustacheEnd
+    400030: rightEyebrowBase
+    400032: rightEyebrowEnd
+    400034: rightLegBase
+    400036: rightLegEnd
+    400038: rightLegJoint
+    400040: rightMoustacheBase
+    400042: rightMoustacheEnd
+    400044: rootJoint
+    4300000: cogsworthMesh
+    7400000: Idle
+    7400002: TurnLeft
+    7400004: TurnRight
+    7400006: HoldLeft
+    7400008: HoldRight
+    9500000: //RootNode
+    13700000: cogsworthMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cogsworth
+        weight: 1
+      - path: cogsworth/rootJoint
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase/backLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase/leftEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase/rightEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase/leftMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase/rightMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase/leftLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase/rightLegEnd
+        weight: 1
+      - path: cogsworthMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TurnLeft
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cogsworth
+        weight: 1
+      - path: cogsworth/rootJoint
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase/backLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase/leftEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase/rightEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase/leftMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase/rightMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase/leftLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase/rightLegEnd
+        weight: 1
+      - path: cogsworthMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TurnRight
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cogsworth
+        weight: 1
+      - path: cogsworth/rootJoint
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase/backLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase/leftEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase/rightEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase/leftMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase/rightMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase/leftLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase/rightLegEnd
+        weight: 1
+      - path: cogsworthMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HoldLeft
+      takeName: Take 001
+      firstFrame: 99
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cogsworth
+        weight: 1
+      - path: cogsworth/rootJoint
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase/backLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase/leftEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase/rightEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase/leftMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase/rightMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase/leftLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase/rightLegEnd
+        weight: 1
+      - path: cogsworthMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: HoldRight
+      takeName: Take 001
+      firstFrame: 139
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: cogsworth
+        weight: 1
+      - path: cogsworth/rootJoint
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/BackLeg1/backLegBase/backLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/leftEyebrowBase/leftEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/eyebrowBaseJoint/rightEyebrowBase/rightEyebrowEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/leftMoustacheBase/leftMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase
+        weight: 1
+      - path: cogsworth/rootJoint/headJoint/rightMoustacheBase/rightMoustacheEnd
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/leftLeg/leftLegBase/leftLegEnd
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase
+        weight: 1
+      - path: cogsworth/rootJoint/rightLegJoint/rightLegBase/rightLegEnd
+        weight: 1
+      - path: cogsworthMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 80
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: cogsworth
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
