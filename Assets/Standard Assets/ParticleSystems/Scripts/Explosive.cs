@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Assertions; 
 using UnityStandardAssets.Utility;
 
 namespace UnityStandardAssets.Effects
@@ -21,6 +22,7 @@ namespace UnityStandardAssets.Effects
         private void Start()
         {
             m_ObjectResetter = GetComponent<ObjectResetter>();
+            Assert.IsNotNull(m_ObjectResetter, "The object reseter is null!");
         }
 
 

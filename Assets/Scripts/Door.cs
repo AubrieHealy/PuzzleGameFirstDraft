@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions;
 using Assets.Managers;
 
 public class Door : MonoBehaviour, Interactable
@@ -31,7 +32,8 @@ public class Door : MonoBehaviour, Interactable
 		}
 
         anim = GetComponent<Animator>();
-	}
+        Assert.IsNotNull(anim, "The animator is null!");
+    }
 
     public void Interact()
     {

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions; 
 using Assets.Managers;
 
 public class ClickToUnlockSecret : MonoBehaviour {
@@ -19,7 +20,8 @@ public class ClickToUnlockSecret : MonoBehaviour {
 	void Awake ()
 	{
 		outlineScript = gameObject.GetComponent<Outline>();
-	}
+        Assert.IsNotNull(outlineScript, "The the outline script is null!");
+    }
 
 	public void OnMouseDown ()
 	{
